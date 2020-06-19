@@ -90,3 +90,9 @@ elixir:
     - script:
       name: run tests
       code: mix test
+go:
+  box: google/golang
+  steps:
+    - script:
+        name: Unit tests
+        code: make test
