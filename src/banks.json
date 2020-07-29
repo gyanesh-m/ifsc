@@ -4250,6 +4250,17 @@
     "ach_debit": false,
     "nach_debit": false
   },
+  "HUCH": {
+    "code": "HUCH",
+    "type": "O-UCB",
+    "ifsc": "UTIB0SHUCBL",
+    "micr": "583858501",
+    "iin": "508577",
+    "apbs": false,
+    "ach_credit": true,
+    "ach_debit": false,
+    "nach_debit": false
+  },
   "HUCX": {
     "code": "HUCX",
     "type": "O-UCB",
@@ -8386,7 +8397,8 @@
     "apbs": true,
     "ach_credit": true,
     "ach_debit": true,
-    "nach_debit": false
+    "nach_debit": false,
+    "upi": true
   },
   "NNSX": {
     "code": "NNSX",
@@ -10093,7 +10105,8 @@
     "apbs": true,
     "ach_credit": true,
     "ach_debit": true,
-    "nach_debit": false
+    "nach_debit": false,
+    "upi": true
   },
   "SACX": {
     "code": "SACX",
@@ -10548,7 +10561,8 @@
     "apbs": true,
     "ach_credit": true,
     "ach_debit": true,
-    "nach_debit": false
+    "nach_debit": false,
+    "upi": true
   },
   "SDHX": {
     "code": "SDHX",
@@ -10570,6 +10584,17 @@
     "apbs": true,
     "ach_credit": true,
     "ach_debit": true,
+    "nach_debit": false
+  },
+  "SDTC": {
+    "code": "SDTC",
+    "type": "O-UCB",
+    "ifsc": "IBKL01340DT",
+    "micr": "591846202",
+    "iin": "990324",
+    "apbs": true,
+    "ach_credit": true,
+    "ach_debit": false,
     "nach_debit": false
   },
   "SDTX": {
@@ -11364,7 +11389,8 @@
     "apbs": true,
     "ach_credit": true,
     "ach_debit": true,
-    "nach_debit": false
+    "nach_debit": false,
+    "upi": true
   },
   "SPTX": {
     "code": "SPTX",
@@ -11688,6 +11714,17 @@
     "ach_debit": true,
     "nach_debit": false,
     "upi": true
+  },
+  "SUSB": {
+    "code": "SUSB",
+    "type": "O-UCB",
+    "ifsc": null,
+    "micr": "591802501",
+    "iin": "817291",
+    "apbs": false,
+    "ach_credit": true,
+    "ach_debit": false,
+    "nach_debit": false
   },
   "SUSX": {
     "code": "SUSX",
@@ -13576,7 +13613,8 @@
     "apbs": true,
     "ach_credit": true,
     "ach_debit": true,
-    "nach_debit": false
+    "nach_debit": false,
+    "upi": true
   },
   "VADX": {
     "code": "VADX",

@@ -426,6 +426,7 @@ module Razorpay
       HSDX = :HSDX
       HSSX = :HSSX
       HUBX = :HUBX
+      HUCH = :HUCH
       HUCB = :HUCB
       HUCX = :HUCX
       HUTX = :HUTX
@@ -576,6 +577,7 @@ module Razorpay
       KATX = :KATX
       KAYX = :KAYX
       KBCX = :KBCX
+      KBKB = :KBKB
       KBNX = :KBNX
       KBSX = :KBSX
       KCBL = :KCBL
@@ -713,6 +715,7 @@ module Razorpay
       MCOX = :MCOX
       MCSX = :MCSX
       MCUX = :MCUX
+      MDBK = :MDBK
       MDCB = :MDCB
       MDCX = :MDCX
       MDEX = :MDEX
@@ -999,6 +1002,7 @@ module Razorpay
       RSBL = :RSBL
       RSBX = :RSBX
       RSCB = :RSCB
+      RSSB = :RSSB
       RSSX = :RSSX
       RSUX = :RSUX
       RSVX = :RSVX
@@ -1060,6 +1064,7 @@ module Razorpay
       SDCX = :SDCX
       SDHX = :SDHX
       SDSX = :SDSX
+      SDTC = :SDTC
       SDTX = :SDTX
       SDUX = :SDUX
       SEMX = :SEMX
@@ -1171,6 +1176,7 @@ module Razorpay
       SUNB = :SUNB
       SURX = :SURX
       SURY = :SURY
+      SUSB = :SUSB
       SUSX = :SUSX
       SUTB = :SUTB
       SUVX = :SUVX
@@ -1348,6 +1354,7 @@ module Razorpay
       UTKS = :UTKS
       UTKX = :UTKX
       UTZX = :UTZX
+      UUCB = :UUCB
       UUCX = :UUCX
       VADX = :VADX
       VAIX = :VAIX
