@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"os"
 	"path"
-	"runtime"
 	"strconv"
 	"strings"
 )
@@ -64,12 +64,11 @@ func init() {
 }
 
 func LoadFile(fileName string, result interface{}) error {
-	_, fileN, _, ok := runtime.Caller(0)
-	if !ok {
-		return errors.New("it was not possible to recover the information. Caller function error")
+	wdir, err := os.Getwd()
+	if err != nil {
+		return err
 	}
-	dir, _ := path.Split(fileN)
-	jsonDir := path.Join(dir, "..")
+	jsonDir := path.Join(wdir, "..")
 	completePath := path.Join(jsonDir, fileName)
 	bytes, err := ioutil.ReadFile(completePath)
 	if err != nil {
