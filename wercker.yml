@@ -93,7 +93,7 @@ elixir:
       name: run tests
       code: mix test
 go:
-  box: google/golang
+  box: golang
   steps:
     - script:
         name: Unit tests
