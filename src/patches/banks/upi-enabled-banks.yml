@@ -30,20 +30,28 @@ banks:
   - BGGX
   - BHUX
   - BKDN
+  - BKDX
   - BKID
+  - BNSB
   - BRDX
   - BRGX
   - BUGX
   - CBIN
+  - CCBX
   - CGGX
   - CITI
   - CIUB
+  - CJAX
   - CNRB
   - COLX
   - CORP
   - COSB
   - CRSX
   - CSBK
+  - CSBX
+  - CTBX
+  - CURX
+  - CZCX
   - DBSS
   - DCBL
   - DEGX
@@ -77,6 +85,8 @@ banks:
   - JSFB
   - KAIJ
   - KARB
+  - KARX
+  - KBSX
   - KCCB
   - KDIX
   - KGSX
@@ -99,11 +109,12 @@ banks:
   - MUSX
   - MZRX
   - NKGS
+  - NNSB
   - NSPB
   - NTBL
-  - NNSB
   - ORBC
   - PASX
+  - PDSX
   - PGBX
   - PJSB
   - PKGB
@@ -118,11 +129,13 @@ banks:
   - RATN
   - RMGB
   - RNSB
-  - SAGX
   - SACB
+  - SADX
+  - SAGX
   - SBIN
   - SCBL
   - SCOB
+  - SDCE
   - SDCX
   - SIBL
   - SIDC
@@ -130,6 +143,7 @@ banks:
   - SPSX
   - SRCB
   - SSDX
+  - STRX
   - SUBX
   - SURY
   - SUTB
@@ -137,6 +151,7 @@ banks:
   - SVCB
   - SVCX
   - SYNB
+  - TAMX
   - TBSB
   - TGBX
   - TJSB
@@ -153,24 +168,13 @@ banks:
   - UTIB
   - UUCX
   - VARA
+  - VCCX
   - VGBX
   - VIJB
   - VIJX
+  - VISX
   - VSBL
   - VSCX
   - VVSB
   - XJKG
   - YESB
-  - VCCX
-  - SADX
-  - PDSX
-  - SDCE
-  - KARX
-  - BKDX
-  - VISX
-  - BNSB
-  - TAMX
-  - CZCX
-  - KBSX
-  - CSBX
-  - STRX
