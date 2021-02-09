@@ -44,6 +44,7 @@ class Bank
     const AJSX = 'AJSX';
     const AJUX = 'AJUX';
     const AKJB = 'AKJB';
+    const AKKB = 'AKKB';
     const AKMX = 'AKMX';
     const AKOX = 'AKOX';
     const ALAX = 'ALAX';
@@ -79,6 +80,7 @@ class Bank
     const APNX = 'APNX';
     const APRX = 'APRX';
     const APSX = 'APSX';
+    const ARBL = 'ARBL';
     const ARCX = 'ARCX';
     const ARMX = 'ARMX';
     const ARYX = 'ARYX';
@@ -440,6 +442,7 @@ class Bank
     const ICBL = 'ICBL';
     const ICHX = 'ICHX';
     const ICIC = 'ICIC';
+    const ICLL = 'ICLL';
     const ICMX = 'ICMX';
     const IDFB = 'IDFB';
     const IDIB = 'IDIB';
@@ -777,6 +780,7 @@ class Bank
     const MSSX = 'MSSX';
     const MUBL = 'MUBL';
     const MUBX = 'MUBX';
+    const MUCG = 'MUCG';
     const MUCX = 'MUCX';
     const MUDX = 'MUDX';
     const MUNX = 'MUNX';
@@ -1034,6 +1038,7 @@ class Bank
     const SAVX = 'SAVX';
     const SAWX = 'SAWX';
     const SBBJ = 'SBBJ';
+    const SBCR = 'SBCR';
     const SBCX = 'SBCX';
     const SBHY = 'SBHY';
     const SBIN = 'SBIN';
@@ -1044,6 +1049,7 @@ class Bank
     const SBMX = 'SBMX';
     const SBMY = 'SBMY';
     const SBNX = 'SBNX';
+    const SBPS = 'SBPS';
     const SBPX = 'SBPX';
     const SBSX = 'SBSX';
     const SBTR = 'SBTR';
@@ -1196,6 +1202,8 @@ class Bank
     const SVSX = 'SVSX';
     const SWMX = 'SWMX';
     const SWSX = 'SWSX';
+    // This is a temporary assignment
+    const SXXX = 'SXXX';
     const SYNB = 'SYNB';
     const TACX = 'TACX';
     const TADX = 'TADX';
@@ -1269,6 +1277,7 @@ class Bank
     const TMTX = 'TMTX';
     const TMUX = 'TMUX';
     const TNBX = 'TNBX';
+    const TNCB = 'TNCB';
     const TNCX = 'TNCX';
     const TNDC = 'TNDC';
     const TNEX = 'TNEX';
@@ -1281,6 +1290,7 @@ class Bank
     const TOCX = 'TOCX';
     const TPCX = 'TPCX';
     const TPDX = 'TPDX';
+    const TPSC = 'TPSC';
     const TPSX = 'TPSX';
     const TPUX = 'TPUX';
     const TRAX = 'TRAX';
