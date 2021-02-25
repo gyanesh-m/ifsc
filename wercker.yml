@@ -118,11 +118,5 @@ go:
   steps:
     - setup-go-workspace
     - script:
-        name: List files
-        code: ls -lrt
-    - script:
-        name: All files
-        code: ls -R
-    - script:
         name: Unit tests
         code: make test
