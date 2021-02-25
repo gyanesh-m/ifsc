@@ -350,7 +350,7 @@ iex(> IFSC.validate("HDFC0000000")
 package main
 
 import (
-	ifsc "github.com/gyanesh-m/ifsc/src/go"
+	ifsc "github.com/razorpay/ifsc/src/go"
 )
 
 // todo: change funcs not required to lower case.
