@@ -114,8 +114,17 @@ elixir:
       name: run tests
       code: mix test
 go:
-  box: golang
+  box:
+  id: "golang"
+  username: $DOCKERHUB_USERNAME
+  password: $DOCKERHUB_ACCESS_TOKEN
   steps:
+    - script:
+        name: List files
+        code: ls -lrt
+    - script:
+        name: All files
+        code: ls -R
     - script:
         name: Unit tests
         code: make test
