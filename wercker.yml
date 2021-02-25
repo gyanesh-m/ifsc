@@ -115,8 +115,6 @@ elixir:
       code: mix test
 go:
   box: golang
-  username: $DOCKERHUB_USERNAME
-  password: $DOCKERHUB_ACCESS_TOKEN
   steps:
     - setup-go-workspace
     - script:
