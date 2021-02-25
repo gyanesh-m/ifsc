@@ -114,11 +114,11 @@ elixir:
       name: run tests
       code: mix test
 go:
-  box:
-  id: "golang"
+  box: golang
   username: $DOCKERHUB_USERNAME
   password: $DOCKERHUB_ACCESS_TOKEN
   steps:
+    - setup-go-workspace
     - script:
         name: List files
         code: ls -lrt
